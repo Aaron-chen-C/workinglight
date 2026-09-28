@@ -1,0 +1,28 @@
+--cpu Cortex-M0
+".\objects\main.o"
+".\objects\driver_uart.o"
+".\objects\eeprom_driver.o"
+".\objects\error_code.o"
+".\objects\flash_driver.o"
+".\objects\iap.o"
+".\objects\lamp_app.o"
+".\objects\lamp_driver.o"
+".\objects\log_printf.o"
+".\objects\my_utility.o"
+".\objects\nvs_data.o"
+".\objects\port_higherlayer.o"
+".\objects\soft_timer.o"
+".\objects\struct_light.o"
+".\objects\struct_light_driver.o"
+".\objects\checksum.o"
+".\objects\protocol_app.o"
+".\objects\core_cm0.o"
+".\objects\system_me32g030.o"
+".\objects\startup_me32g030.o"
+".\objects\me32g030_sys.o"
+".\objects\me32g030_pwm.o"
+".\objects\me32g030_uart.o"
+--library_type=microlib --strict --scatter ".\Objects\EN42BD61-E19_G030_0x1001.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\EN42BD61-E19_G030_0x1001.map" -o .\Objects\EN42BD61-E19_G030_0x1001.axf

@@ -1,0 +1,70 @@
+#ifndef DimmingAlgorithm_H
+#define DimmingAlgorithm_H
+
+#include  <stdint.h>
+
+
+#define	DataReset(x1,x2)	if(x1==0)\
+                          {x1=x2;}\
+                          else\
+                          {x1+=x2,x1>>=1;}
+                            
+#define   ADC_DATA_BUFFER_SIZE      (uint8_t)9
+#define   POSITION_ADC_SORT         (uint8_t)5
+#define   POSITION_ADC_DATA         (uint8_t)4  
+
+
+
+#define		LINE_COEFFICIENT(x1,x2,y1,y2)		((double)(y2-y1)/(double)(x2-x1))
+
+//adc
+#define   VDD_VOLTAGE           (double)5.0
+#define   ADC_SEGMENT_COUNT  		(uint8_t)2
+  
+#define 	MAX_ADC_INPUT    			(uint16_t)4095
+
+#define   ADC_STABLE_ERR     		(uint16_t)((double)MAX_ADC_INPUT*0.005)
+#define   ADC_INPUT_ERROR     	(uint16_t)((double)MAX_ADC_INPUT*0.01)
+#define   ADC_INPUT_DETA     	  (uint16_t)((double)MAX_ADC_INPUT*0.05)
+
+
+//adc4
+  
+#define   ADC0_INPUT_0     			(double)0.8//1.288//0.7
+#define   ADC0_INPUT_1    			(double)4.80//3.223//1.0
+#define   ADC0_INPUT_2    			(double)2.1//1.348
+#define   ADC0_INPUT_3    			(double)2.5//1.982
+#define   ADC0_INPUT_4    			(double)2.9//2.616
+#define   ADC0_INPUT_5     			(double)3.22//3.1
+
+#define   ADC0_INPUT_X0    			(uint16_t)(((double)MAX_ADC_INPUT*ADC0_INPUT_0)/VDD_VOLTAGE) // (4095*0.8)/5.0=655.2
+#define   ADC0_INPUT_X1    			(uint16_t)(((double)MAX_ADC_INPUT*ADC0_INPUT_1)/VDD_VOLTAGE) // (4095*4.8)/5.0=3932.16
+#define   ADC0_INPUT_X2    			(uint16_t)(((double)MAX_ADC_INPUT*ADC0_INPUT_2)/VDD_VOLTAGE)
+#define   ADC0_INPUT_X3    			(uint16_t)(((double)MAX_ADC_INPUT*ADC0_INPUT_3)/VDD_VOLTAGE)
+#define   ADC0_INPUT_X4    			(uint16_t)(((double)MAX_ADC_INPUT*ADC0_INPUT_4)/VDD_VOLTAGE)
+#define   ADC0_INPUT_X5    			(uint16_t)(((double)MAX_ADC_INPUT*ADC0_INPUT_5)/VDD_VOLTAGE)
+  
+//pwm output
+
+#define		PWM_BRIGHT1_0				(double)0.010
+#define		PWM_BRIGHT1_1				(double)0.99
+#define		PWM_BRIGHT1_2				(double)0.168
+#define		PWM_BRIGHT1_3				(double)0.344
+#define		PWM_BRIGHT1_4				(double)0.643
+#define		PWM_BRIGHT1_5				(double)1.0
+
+
+#define   ADC0_BRIGHT_CURVE_K0		LINE_COEFFICIENT(ADC0_INPUT_X0,ADC0_INPUT_X1,PWM_BRIGHT1_0,PWM_BRIGHT1_1)
+
+#define   ADC0_BRIGHT_CURVE_K1		LINE_COEFFICIENT(ADC0_INPUT_X1,ADC0_INPUT_X2,PWM_BRIGHT1_1,PWM_BRIGHT1_2)
+#define   ADC0_BRIGHT_CURVE_K2		LINE_COEFFICIENT(ADC0_INPUT_X2,ADC0_INPUT_X3,PWM_BRIGHT1_2,PWM_BRIGHT1_3)
+#define   ADC0_BRIGHT_CURVE_K3		LINE_COEFFICIENT(ADC0_INPUT_X3,ADC0_INPUT_X4,PWM_BRIGHT1_3,PWM_BRIGHT1_4)
+#define   ADC0_BRIGHT_CURVE_K4		LINE_COEFFICIENT(ADC0_INPUT_X4,ADC0_INPUT_X5,PWM_BRIGHT1_4,PWM_BRIGHT1_5) 
+
+#define   GW0_ADC1_P_C0		      PWM_BRIGHT1_1 - ADC0_BRIGHT_CURVE_K0 * ADC0_INPUT_X1
+
+#define   BRIGHT_CURVE_ADC0   LINE_COEFFICIENT(ADC0_INPUT_X0,ADC0_INPUT_X5,PWM_BRIGHT1_0,PWM_BRIGHT1_5)              
+
+#define START_AD_CONVERTION() ADC->SSCR_b.ADCTRIG = 1              
+extern void wac_light_pwm_deal(uint16_t lightness, uint16_t temperature); 
+#endif

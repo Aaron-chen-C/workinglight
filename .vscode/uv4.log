@@ -1,0 +1,24 @@
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil\ARM\ARMCC\Bin'
+Build target 'FQ'
+compiling lamp_app.c...
+..\User\lamp_app.c(4237): warning:  #177-D: variable "temp"  was declared but never referenced
+      uint32_t temp = (uint32_t)(lightness); // 硬件要求：功率百分比只针对亮�?
+..\User\lamp_app.c(4337): warning:  #177-D: label "dim_to_warm_end"  was declared but never referenced
+  dim_to_warm_end:
+..\User\lamp_app.c(2285): warning:  #177-D: function "FIXTLAMP_getRGBWW_value"  was declared but never referenced
+  static void FIXTLAMP_getRGBWW_value(uint8_t *payDataRly, uint8_t *pPayLenRly)
+..\User\lamp_app.c(2309): warning:  #177-D: function "FIXTLAMP_getReset_value"  was declared but never referenced
+  static void FIXTLAMP_getReset_value(uint8_t *payDataRly, uint8_t *pPayLenRly)
+..\User\lamp_app.c(2334): warning:  #177-D: function "FIXTLAMP_getCct_limit_value"  was declared but never referenced
+  static void FIXTLAMP_getCct_limit_value(uint8_t *payDataRly, uint8_t *pPayLenRly)
+..\User\lamp_app.c(2521): warning:  #177-D: function "FIXTLAMP_WallstationBrightness"  was declared but never referenced
+  static void FIXTLAMP_WallstationBrightness(uint8_t mode, uint8_t value)
+..\User\lamp_app.c(2635): warning:  #177-D: function "FIXTLAMP_setcct_limit"  was declared but never referenced
+  static void FIXTLAMP_setcct_limit(uint8_t *value, uint8_t fade_flag)
+..\User\lamp_app.c: 7 warnings, 0 errors
+linking...
+Program Size: Code=16808 RO-data=392 RW-data=80 ZI-data=2640  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin -o "c:\Users\EL\Desktop\FQ PRJ 1.9\FQ PRJ\Objects\lamp_app.bin" .\Objects\lamp_app.axf
+".\Objects\lamp_app.axf" - 0 Error(s), 7 Warning(s).
+Build Time Elapsed:  00:00:04

@@ -1,0 +1,505 @@
+Dependencies for Project 'FQ', Target 'FQ': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (..\User\Main.c)(0x6AB37F5C)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\User -I ..\common\CMSIS\Include -I ..\common\Device\ARM\ME32G030\Include --diag_suppress=167,1296-I"F:\Keil Pack\Mesilicon\ME32\2.3.0\Device\Include"-D__UVISION_VERSION="540"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\User\app_config.h)(0x695CA63E)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_sys.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cm0.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\common\CMSIS\Include\core_cmInstr.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cmFunc.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\system_me32g030.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_ioconfig.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_pwm.h)(0x66F373E7)
+I (..\User\me32g030_adc.h)(0x6AB09C02)
+I (..\User\TypeDef.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_uart.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\string.h)(0x5D9B3488)
+I (F:\Keil core\ARM\ARMCC\include\stdio.h)(0x5D9B348A)
+I (F:\Keil core\ARM\ARMCC\include\math.h)(0x6A7BE777)
+I (F:\Keil core\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (..\User\my_utility.h)(0x66F373E7)
+I (..\User\log_printf.h)(0x69CC8214)
+I (..\User\error_code.h)(0x66F373E7)
+I (..\User\soft_timer.h)(0x66F373E7)
+I (..\User\DimmingAlgorithm.h)(0x6AB385C6)
+I (..\User\struct_light.h)(0x69CF5158)
+I (..\User\struct_light_driver.h)(0x674E9FDD)
+I (..\User\driver_uart.h)(0x695F5003)
+I (..\User\nvs_data.h)(0x6719E65B)
+I (F:\Keil core\ARM\ARMCC\include\stdbool.h)(0x5D9B3488)
+I (..\User\port_higherlayer.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_gpio.h)(0x66F373E7)
+I (..\User\lamp_app.h)(0x696456CC)
+F (..\User\driver_uart.c)(0x69CC833B)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\User -I ..\common\CMSIS\Include -I ..\common\Device\ARM\ME32G030\Include --diag_suppress=167,1296-I"F:\Keil Pack\Mesilicon\ME32\2.3.0\Device\Include"-D__UVISION_VERSION="540"-o .\objects\driver_uart.o --omf_browse .\objects\driver_uart.crf --depend .\objects\driver_uart.d)
+I (..\User\app_config.h)(0x695CA63E)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_sys.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cm0.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\common\CMSIS\Include\core_cmInstr.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cmFunc.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\system_me32g030.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_ioconfig.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_pwm.h)(0x66F373E7)
+I (..\User\me32g030_adc.h)(0x6AB09C02)
+I (..\User\TypeDef.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_uart.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\string.h)(0x5D9B3488)
+I (F:\Keil core\ARM\ARMCC\include\stdio.h)(0x5D9B348A)
+I (F:\Keil core\ARM\ARMCC\include\math.h)(0x6A7BE777)
+I (F:\Keil core\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (..\User\my_utility.h)(0x66F373E7)
+I (..\User\log_printf.h)(0x69CC8214)
+I (..\User\error_code.h)(0x66F373E7)
+I (..\User\soft_timer.h)(0x66F373E7)
+I (..\User\DimmingAlgorithm.h)(0x6AB385C6)
+I (..\User\struct_light.h)(0x69CF5158)
+I (..\User\struct_light_driver.h)(0x674E9FDD)
+I (..\User\driver_uart.h)(0x695F5003)
+F (..\User\eeprom_driver.c)(0x672D711D)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\User -I ..\common\CMSIS\Include -I ..\common\Device\ARM\ME32G030\Include --diag_suppress=167,1296-I"F:\Keil Pack\Mesilicon\ME32\2.3.0\Device\Include"-D__UVISION_VERSION="540"-o .\objects\eeprom_driver.o --omf_browse .\objects\eeprom_driver.crf --depend .\objects\eeprom_driver.d)
+I (..\User\app_config.h)(0x695CA63E)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_sys.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cm0.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\common\CMSIS\Include\core_cmInstr.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cmFunc.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\system_me32g030.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_ioconfig.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_pwm.h)(0x66F373E7)
+I (..\User\me32g030_adc.h)(0x6AB09C02)
+I (..\User\TypeDef.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_uart.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\string.h)(0x5D9B3488)
+I (F:\Keil core\ARM\ARMCC\include\stdio.h)(0x5D9B348A)
+I (F:\Keil core\ARM\ARMCC\include\math.h)(0x6A7BE777)
+I (F:\Keil core\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (..\User\my_utility.h)(0x66F373E7)
+I (..\User\log_printf.h)(0x69CC8214)
+I (..\User\error_code.h)(0x66F373E7)
+I (..\User\soft_timer.h)(0x66F373E7)
+I (..\User\DimmingAlgorithm.h)(0x6AB385C6)
+I (..\User\struct_light.h)(0x69CF5158)
+I (..\User\struct_light_driver.h)(0x674E9FDD)
+I (..\User\flash_driver.h)(0x66F373E7)
+I (..\User\eeprom_driver.h)(0x66F373E7)
+F (..\User\error_code.c)(0x66F373E7)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\User -I ..\common\CMSIS\Include -I ..\common\Device\ARM\ME32G030\Include --diag_suppress=167,1296-I"F:\Keil Pack\Mesilicon\ME32\2.3.0\Device\Include"-D__UVISION_VERSION="540"-o .\objects\error_code.o --omf_browse .\objects\error_code.crf --depend .\objects\error_code.d)
+I (..\User\app_config.h)(0x695CA63E)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_sys.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cm0.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\common\CMSIS\Include\core_cmInstr.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cmFunc.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\system_me32g030.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_ioconfig.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_pwm.h)(0x66F373E7)
+I (..\User\me32g030_adc.h)(0x6AB09C02)
+I (..\User\TypeDef.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_uart.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\string.h)(0x5D9B3488)
+I (F:\Keil core\ARM\ARMCC\include\stdio.h)(0x5D9B348A)
+I (F:\Keil core\ARM\ARMCC\include\math.h)(0x6A7BE777)
+I (F:\Keil core\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (..\User\my_utility.h)(0x66F373E7)
+I (..\User\log_printf.h)(0x69CC8214)
+I (..\User\error_code.h)(0x66F373E7)
+I (..\User\soft_timer.h)(0x66F373E7)
+I (..\User\DimmingAlgorithm.h)(0x6AB385C6)
+I (..\User\struct_light.h)(0x69CF5158)
+I (..\User\struct_light_driver.h)(0x674E9FDD)
+F (..\User\flash_driver.c)(0x66F373E7)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\User -I ..\common\CMSIS\Include -I ..\common\Device\ARM\ME32G030\Include --diag_suppress=167,1296-I"F:\Keil Pack\Mesilicon\ME32\2.3.0\Device\Include"-D__UVISION_VERSION="540"-o .\objects\flash_driver.o --omf_browse .\objects\flash_driver.crf --depend .\objects\flash_driver.d)
+I (..\User\app_config.h)(0x695CA63E)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_sys.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cm0.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\common\CMSIS\Include\core_cmInstr.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cmFunc.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\system_me32g030.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_ioconfig.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_pwm.h)(0x66F373E7)
+I (..\User\me32g030_adc.h)(0x6AB09C02)
+I (..\User\TypeDef.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_uart.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\string.h)(0x5D9B3488)
+I (F:\Keil core\ARM\ARMCC\include\stdio.h)(0x5D9B348A)
+I (F:\Keil core\ARM\ARMCC\include\math.h)(0x6A7BE777)
+I (F:\Keil core\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (..\User\my_utility.h)(0x66F373E7)
+I (..\User\log_printf.h)(0x69CC8214)
+I (..\User\error_code.h)(0x66F373E7)
+I (..\User\soft_timer.h)(0x66F373E7)
+I (..\User\DimmingAlgorithm.h)(0x6AB385C6)
+I (..\User\struct_light.h)(0x69CF5158)
+I (..\User\struct_light_driver.h)(0x674E9FDD)
+I (..\User\flash_driver.h)(0x66F373E7)
+F (..\User\iap.c)(0x673ACCE9)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\User -I ..\common\CMSIS\Include -I ..\common\Device\ARM\ME32G030\Include --diag_suppress=167,1296-I"F:\Keil Pack\Mesilicon\ME32\2.3.0\Device\Include"-D__UVISION_VERSION="540"-o .\objects\iap.o --omf_browse .\objects\iap.crf --depend .\objects\iap.d)
+I (..\User\app_config.h)(0x695CA63E)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_sys.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cm0.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\common\CMSIS\Include\core_cmInstr.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cmFunc.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\system_me32g030.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_ioconfig.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_pwm.h)(0x66F373E7)
+I (..\User\me32g030_adc.h)(0x6AB09C02)
+I (..\User\TypeDef.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_uart.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\string.h)(0x5D9B3488)
+I (F:\Keil core\ARM\ARMCC\include\stdio.h)(0x5D9B348A)
+I (F:\Keil core\ARM\ARMCC\include\math.h)(0x6A7BE777)
+I (F:\Keil core\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (..\User\my_utility.h)(0x66F373E7)
+I (..\User\log_printf.h)(0x69CC8214)
+I (..\User\error_code.h)(0x66F373E7)
+I (..\User\soft_timer.h)(0x66F373E7)
+I (..\User\DimmingAlgorithm.h)(0x6AB385C6)
+I (..\User\struct_light.h)(0x69CF5158)
+I (..\User\struct_light_driver.h)(0x674E9FDD)
+I (..\User\flash_driver.h)(0x66F373E7)
+I (..\User\nvs_data.h)(0x6719E65B)
+I (F:\Keil core\ARM\ARMCC\include\stdbool.h)(0x5D9B3488)
+I (..\User\iap.h)(0x66F373E7)
+F (..\User\lamp_app.c)(0x69CF6194)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\User -I ..\common\CMSIS\Include -I ..\common\Device\ARM\ME32G030\Include --diag_suppress=167,1296-I"F:\Keil Pack\Mesilicon\ME32\2.3.0\Device\Include"-D__UVISION_VERSION="540"-o .\objects\lamp_app.o --omf_browse .\objects\lamp_app.crf --depend .\objects\lamp_app.d)
+I (..\User\protocol_app.h)(0x673ACCE9)
+I (F:\Keil core\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\User\app_config.h)(0x695CA63E)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_sys.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cm0.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cmInstr.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cmFunc.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\system_me32g030.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_ioconfig.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_pwm.h)(0x66F373E7)
+I (..\User\me32g030_adc.h)(0x6AB09C02)
+I (..\User\TypeDef.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_uart.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\string.h)(0x5D9B3488)
+I (F:\Keil core\ARM\ARMCC\include\stdio.h)(0x5D9B348A)
+I (F:\Keil core\ARM\ARMCC\include\math.h)(0x6A7BE777)
+I (F:\Keil core\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (..\User\my_utility.h)(0x66F373E7)
+I (..\User\log_printf.h)(0x69CC8214)
+I (..\User\error_code.h)(0x66F373E7)
+I (..\User\soft_timer.h)(0x66F373E7)
+I (..\User\DimmingAlgorithm.h)(0x6AB385C6)
+I (..\User\struct_light.h)(0x69CF5158)
+I (..\User\struct_light_driver.h)(0x674E9FDD)
+I (..\User\lamp_app.h)(0x696456CC)
+I (..\User\nvs_data.h)(0x6719E65B)
+I (F:\Keil core\ARM\ARMCC\include\stdbool.h)(0x5D9B3488)
+I (..\User\lamp_driver.h)(0x66F373E7)
+I (..\User\iap.h)(0x66F373E7)
+I (..\User\driver_uart.h)(0x695F5003)
+F (..\User\lamp_driver.c)(0x673ACCE9)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\User -I ..\common\CMSIS\Include -I ..\common\Device\ARM\ME32G030\Include --diag_suppress=167,1296-I"F:\Keil Pack\Mesilicon\ME32\2.3.0\Device\Include"-D__UVISION_VERSION="540"-o .\objects\lamp_driver.o --omf_browse .\objects\lamp_driver.crf --depend .\objects\lamp_driver.d)
+I (..\User\app_config.h)(0x695CA63E)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_sys.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cm0.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\common\CMSIS\Include\core_cmInstr.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cmFunc.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\system_me32g030.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_ioconfig.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_pwm.h)(0x66F373E7)
+I (..\User\me32g030_adc.h)(0x6AB09C02)
+I (..\User\TypeDef.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_uart.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\string.h)(0x5D9B3488)
+I (F:\Keil core\ARM\ARMCC\include\stdio.h)(0x5D9B348A)
+I (F:\Keil core\ARM\ARMCC\include\math.h)(0x6A7BE777)
+I (F:\Keil core\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (..\User\my_utility.h)(0x66F373E7)
+I (..\User\log_printf.h)(0x69CC8214)
+I (..\User\error_code.h)(0x66F373E7)
+I (..\User\soft_timer.h)(0x66F373E7)
+I (..\User\DimmingAlgorithm.h)(0x6AB385C6)
+I (..\User\struct_light.h)(0x69CF5158)
+I (..\User\struct_light_driver.h)(0x674E9FDD)
+I (..\User\nvs_data.h)(0x6719E65B)
+I (F:\Keil core\ARM\ARMCC\include\stdbool.h)(0x5D9B3488)
+I (..\User\lamp_driver.h)(0x66F373E7)
+F (..\User\log_printf.c)(0x69CC85D3)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\User -I ..\common\CMSIS\Include -I ..\common\Device\ARM\ME32G030\Include --diag_suppress=167,1296-I"F:\Keil Pack\Mesilicon\ME32\2.3.0\Device\Include"-D__UVISION_VERSION="540"-o .\objects\log_printf.o --omf_browse .\objects\log_printf.crf --depend .\objects\log_printf.d)
+I (..\User\log_printf.h)(0x69CC8214)
+I (F:\Keil core\ARM\ARMCC\include\stdio.h)(0x5D9B348A)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_ioconfig.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_uart.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cm0.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\common\CMSIS\Include\core_cmInstr.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cmFunc.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\system_me32g030.h)(0x66F373E7)
+F (..\User\my_utility.c)(0x66F373E7)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\User -I ..\common\CMSIS\Include -I ..\common\Device\ARM\ME32G030\Include --diag_suppress=167,1296-I"F:\Keil Pack\Mesilicon\ME32\2.3.0\Device\Include"-D__UVISION_VERSION="540"-o .\objects\my_utility.o --omf_browse .\objects\my_utility.crf --depend .\objects\my_utility.d)
+I (F:\Keil core\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (F:\Keil core\ARM\ARMCC\include\stdio.h)(0x5D9B348A)
+F (..\User\nvs_data.c)(0x6719E646)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\User -I ..\common\CMSIS\Include -I ..\common\Device\ARM\ME32G030\Include --diag_suppress=167,1296-I"F:\Keil Pack\Mesilicon\ME32\2.3.0\Device\Include"-D__UVISION_VERSION="540"-o .\objects\nvs_data.o --omf_browse .\objects\nvs_data.crf --depend .\objects\nvs_data.d)
+I (..\User\app_config.h)(0x695CA63E)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_sys.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cm0.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\common\CMSIS\Include\core_cmInstr.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cmFunc.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\system_me32g030.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_ioconfig.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_pwm.h)(0x66F373E7)
+I (..\User\me32g030_adc.h)(0x6AB09C02)
+I (..\User\TypeDef.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_uart.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\string.h)(0x5D9B3488)
+I (F:\Keil core\ARM\ARMCC\include\stdio.h)(0x5D9B348A)
+I (F:\Keil core\ARM\ARMCC\include\math.h)(0x6A7BE777)
+I (F:\Keil core\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (..\User\my_utility.h)(0x66F373E7)
+I (..\User\log_printf.h)(0x69CC8214)
+I (..\User\error_code.h)(0x66F373E7)
+I (..\User\soft_timer.h)(0x66F373E7)
+I (..\User\DimmingAlgorithm.h)(0x6AB385C6)
+I (..\User\struct_light.h)(0x69CF5158)
+I (..\User\struct_light_driver.h)(0x674E9FDD)
+I (..\User\nvs_data.h)(0x6719E65B)
+I (F:\Keil core\ARM\ARMCC\include\stdbool.h)(0x5D9B3488)
+I (..\User\eeprom_driver.h)(0x66F373E7)
+I (..\User\lamp_app.h)(0x696456CC)
+F (..\User\port_higherlayer.c)(0x67DB804B)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\User -I ..\common\CMSIS\Include -I ..\common\Device\ARM\ME32G030\Include --diag_suppress=167,1296-I"F:\Keil Pack\Mesilicon\ME32\2.3.0\Device\Include"-D__UVISION_VERSION="540"-o .\objects\port_higherlayer.o --omf_browse .\objects\port_higherlayer.crf --depend .\objects\port_higherlayer.d)
+I (..\User\app_config.h)(0x695CA63E)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_sys.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cm0.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\common\CMSIS\Include\core_cmInstr.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cmFunc.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\system_me32g030.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_ioconfig.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_pwm.h)(0x66F373E7)
+I (..\User\me32g030_adc.h)(0x6AB09C02)
+I (..\User\TypeDef.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_uart.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\string.h)(0x5D9B3488)
+I (F:\Keil core\ARM\ARMCC\include\stdio.h)(0x5D9B348A)
+I (F:\Keil core\ARM\ARMCC\include\math.h)(0x6A7BE777)
+I (F:\Keil core\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (..\User\my_utility.h)(0x66F373E7)
+I (..\User\log_printf.h)(0x69CC8214)
+I (..\User\error_code.h)(0x66F373E7)
+I (..\User\soft_timer.h)(0x66F373E7)
+I (..\User\DimmingAlgorithm.h)(0x6AB385C6)
+I (..\User\struct_light.h)(0x69CF5158)
+I (..\User\struct_light_driver.h)(0x674E9FDD)
+I (..\User\port_higherlayer.h)(0x66F373E7)
+I (..\User\nvs_data.h)(0x6719E65B)
+I (F:\Keil core\ARM\ARMCC\include\stdbool.h)(0x5D9B3488)
+I (..\User\protocol_app.h)(0x673ACCE9)
+I (..\User\checksum.h)(0x66F373E7)
+I (..\User\driver_uart.h)(0x695F5003)
+I (..\User\iap.h)(0x66F373E7)
+I (..\User\lamp_app.h)(0x696456CC)
+F (..\User\soft_timer.c)(0x66F373E7)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\User -I ..\common\CMSIS\Include -I ..\common\Device\ARM\ME32G030\Include --diag_suppress=167,1296-I"F:\Keil Pack\Mesilicon\ME32\2.3.0\Device\Include"-D__UVISION_VERSION="540"-o .\objects\soft_timer.o --omf_browse .\objects\soft_timer.crf --depend .\objects\soft_timer.d)
+I (..\User\app_config.h)(0x695CA63E)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_sys.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cm0.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\common\CMSIS\Include\core_cmInstr.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cmFunc.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\system_me32g030.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_ioconfig.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_pwm.h)(0x66F373E7)
+I (..\User\me32g030_adc.h)(0x6AB09C02)
+I (..\User\TypeDef.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_uart.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\string.h)(0x5D9B3488)
+I (F:\Keil core\ARM\ARMCC\include\stdio.h)(0x5D9B348A)
+I (F:\Keil core\ARM\ARMCC\include\math.h)(0x6A7BE777)
+I (F:\Keil core\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (..\User\my_utility.h)(0x66F373E7)
+I (..\User\log_printf.h)(0x69CC8214)
+I (..\User\error_code.h)(0x66F373E7)
+I (..\User\soft_timer.h)(0x66F373E7)
+I (..\User\DimmingAlgorithm.h)(0x6AB385C6)
+I (..\User\struct_light.h)(0x69CF5158)
+I (..\User\struct_light_driver.h)(0x674E9FDD)
+F (..\User\struct_light.c)(0x69E5F812)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\User -I ..\common\CMSIS\Include -I ..\common\Device\ARM\ME32G030\Include --diag_suppress=167,1296-I"F:\Keil Pack\Mesilicon\ME32\2.3.0\Device\Include"-D__UVISION_VERSION="540"-o .\objects\struct_light.o --omf_browse .\objects\struct_light.crf --depend .\objects\struct_light.d)
+I (..\User\app_config.h)(0x695CA63E)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_sys.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cm0.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\common\CMSIS\Include\core_cmInstr.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cmFunc.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\system_me32g030.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_ioconfig.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_pwm.h)(0x66F373E7)
+I (..\User\me32g030_adc.h)(0x6AB09C02)
+I (..\User\TypeDef.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_uart.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\string.h)(0x5D9B3488)
+I (F:\Keil core\ARM\ARMCC\include\stdio.h)(0x5D9B348A)
+I (F:\Keil core\ARM\ARMCC\include\math.h)(0x6A7BE777)
+I (F:\Keil core\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (..\User\my_utility.h)(0x66F373E7)
+I (..\User\log_printf.h)(0x69CC8214)
+I (..\User\error_code.h)(0x66F373E7)
+I (..\User\soft_timer.h)(0x66F373E7)
+I (..\User\DimmingAlgorithm.h)(0x6AB385C6)
+I (..\User\struct_light.h)(0x69CF5158)
+I (..\User\struct_light_driver.h)(0x674E9FDD)
+I (..\User\lamp_app.h)(0x696456CC)
+F (..\User\struct_light_driver.c)(0x69E9CCAD)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\User -I ..\common\CMSIS\Include -I ..\common\Device\ARM\ME32G030\Include --diag_suppress=167,1296-I"F:\Keil Pack\Mesilicon\ME32\2.3.0\Device\Include"-D__UVISION_VERSION="540"-o .\objects\struct_light_driver.o --omf_browse .\objects\struct_light_driver.crf --depend .\objects\struct_light_driver.d)
+I (..\User\app_config.h)(0x695CA63E)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_sys.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cm0.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\common\CMSIS\Include\core_cmInstr.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cmFunc.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\system_me32g030.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_ioconfig.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_pwm.h)(0x66F373E7)
+I (..\User\me32g030_adc.h)(0x6AB09C02)
+I (..\User\TypeDef.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_uart.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\string.h)(0x5D9B3488)
+I (F:\Keil core\ARM\ARMCC\include\stdio.h)(0x5D9B348A)
+I (F:\Keil core\ARM\ARMCC\include\math.h)(0x6A7BE777)
+I (F:\Keil core\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (..\User\my_utility.h)(0x66F373E7)
+I (..\User\log_printf.h)(0x69CC8214)
+I (..\User\error_code.h)(0x66F373E7)
+I (..\User\soft_timer.h)(0x66F373E7)
+I (..\User\DimmingAlgorithm.h)(0x6AB385C6)
+I (..\User\struct_light.h)(0x69CF5158)
+I (..\User\struct_light_driver.h)(0x674E9FDD)
+F (..\User\checksum.c)(0x66F373E7)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\User -I ..\common\CMSIS\Include -I ..\common\Device\ARM\ME32G030\Include --diag_suppress=167,1296-I"F:\Keil Pack\Mesilicon\ME32\2.3.0\Device\Include"-D__UVISION_VERSION="540"-o .\objects\checksum.o --omf_browse .\objects\checksum.crf --depend .\objects\checksum.d)
+I (..\User\app_config.h)(0x695CA63E)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_sys.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cm0.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\common\CMSIS\Include\core_cmInstr.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cmFunc.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\system_me32g030.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_ioconfig.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_pwm.h)(0x66F373E7)
+I (..\User\me32g030_adc.h)(0x6AB09C02)
+I (..\User\TypeDef.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_uart.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\string.h)(0x5D9B3488)
+I (F:\Keil core\ARM\ARMCC\include\stdio.h)(0x5D9B348A)
+I (F:\Keil core\ARM\ARMCC\include\math.h)(0x6A7BE777)
+I (F:\Keil core\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (..\User\my_utility.h)(0x66F373E7)
+I (..\User\log_printf.h)(0x69CC8214)
+I (..\User\error_code.h)(0x66F373E7)
+I (..\User\soft_timer.h)(0x66F373E7)
+I (..\User\DimmingAlgorithm.h)(0x6AB385C6)
+I (..\User\struct_light.h)(0x69CF5158)
+I (..\User\struct_light_driver.h)(0x674E9FDD)
+I (..\User\checksum.h)(0x66F373E7)
+F (..\User\protocol_app.c)(0x66F373E7)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\User -I ..\common\CMSIS\Include -I ..\common\Device\ARM\ME32G030\Include --diag_suppress=167,1296-I"F:\Keil Pack\Mesilicon\ME32\2.3.0\Device\Include"-D__UVISION_VERSION="540"-o .\objects\protocol_app.o --omf_browse .\objects\protocol_app.crf --depend .\objects\protocol_app.d)
+I (..\User\app_config.h)(0x695CA63E)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_sys.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cm0.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\common\CMSIS\Include\core_cmInstr.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cmFunc.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\system_me32g030.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_ioconfig.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_pwm.h)(0x66F373E7)
+I (..\User\me32g030_adc.h)(0x6AB09C02)
+I (..\User\TypeDef.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_uart.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\string.h)(0x5D9B3488)
+I (F:\Keil core\ARM\ARMCC\include\stdio.h)(0x5D9B348A)
+I (F:\Keil core\ARM\ARMCC\include\math.h)(0x6A7BE777)
+I (F:\Keil core\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (..\User\my_utility.h)(0x66F373E7)
+I (..\User\log_printf.h)(0x69CC8214)
+I (..\User\error_code.h)(0x66F373E7)
+I (..\User\soft_timer.h)(0x66F373E7)
+I (..\User\DimmingAlgorithm.h)(0x6AB385C6)
+I (..\User\struct_light.h)(0x69CF5158)
+I (..\User\struct_light_driver.h)(0x674E9FDD)
+I (..\User\nvs_data.h)(0x6719E65B)
+I (F:\Keil core\ARM\ARMCC\include\stdbool.h)(0x5D9B3488)
+I (..\User\protocol_app.h)(0x673ACCE9)
+I (..\User\lamp_app.h)(0x696456CC)
+F (.\me32g030_adc.c)(0x686C1C9E)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\User -I ..\common\CMSIS\Include -I ..\common\Device\ARM\ME32G030\Include --diag_suppress=167,1296-I"F:\Keil Pack\Mesilicon\ME32\2.3.0\Device\Include"-D__UVISION_VERSION="540"-o .\objects\me32g030_adc.o --omf_browse .\objects\me32g030_adc.crf --depend .\objects\me32g030_adc.d)
+I (..\common\Device\ARM\ME32G030\Include\me32g030.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cm0.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\common\CMSIS\Include\core_cmInstr.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cmFunc.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\system_me32g030.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_sys.h)(0x66F373E7)
+I (..\User\me32g030_adc.h)(0x6AB09C02)
+F (.\DimmingAlgorithm.c)(0x6AB38873)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\User -I ..\common\CMSIS\Include -I ..\common\Device\ARM\ME32G030\Include --diag_suppress=167,1296-I"F:\Keil Pack\Mesilicon\ME32\2.3.0\Device\Include"-D__UVISION_VERSION="540"-o .\objects\dimmingalgorithm.o --omf_browse .\objects\dimmingalgorithm.crf --depend .\objects\dimmingalgorithm.d)
+I (..\User\app_config.h)(0x695CA63E)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_sys.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cm0.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\common\CMSIS\Include\core_cmInstr.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cmFunc.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\system_me32g030.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_ioconfig.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_pwm.h)(0x66F373E7)
+I (..\User\me32g030_adc.h)(0x6AB09C02)
+I (..\User\TypeDef.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_uart.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\string.h)(0x5D9B3488)
+I (F:\Keil core\ARM\ARMCC\include\stdio.h)(0x5D9B348A)
+I (F:\Keil core\ARM\ARMCC\include\math.h)(0x6A7BE777)
+I (F:\Keil core\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (..\User\my_utility.h)(0x66F373E7)
+I (..\User\log_printf.h)(0x69CC8214)
+I (..\User\error_code.h)(0x66F373E7)
+I (..\User\soft_timer.h)(0x66F373E7)
+I (..\User\DimmingAlgorithm.h)(0x6AB385C6)
+I (..\User\struct_light.h)(0x69CF5158)
+I (..\User\struct_light_driver.h)(0x674E9FDD)
+I (..\User\lamp_app.h)(0x696456CC)
+F (..\common\CMSIS\Include\core_cm0.c)(0x66F373E7)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\User -I ..\common\CMSIS\Include -I ..\common\Device\ARM\ME32G030\Include --diag_suppress=167,1296-I"F:\Keil Pack\Mesilicon\ME32\2.3.0\Device\Include"-D__UVISION_VERSION="540"-o .\objects\core_cm0.o --omf_browse .\objects\core_cm0.crf --depend .\objects\core_cm0.d)
+I (F:\Keil core\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+F (..\common\Device\ARM\ME32G030\Source\system_me32g030.c)(0x66F373E7)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\User -I ..\common\CMSIS\Include -I ..\common\Device\ARM\ME32G030\Include --diag_suppress=167,1296-I"F:\Keil Pack\Mesilicon\ME32\2.3.0\Device\Include"-D__UVISION_VERSION="540"-o .\objects\system_me32g030.o --omf_browse .\objects\system_me32g030.crf --depend .\objects\system_me32g030.d)
+I (F:\Keil core\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\common\Device\ARM\ME32G030\Include\system_me32g030.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cm0.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cmInstr.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cmFunc.h)(0x66F373E7)
+F (..\common\Device\ARM\ME32G030\Source\ARM\startup_me32g030.s)(0x66F373E7)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I"F:\Keil Pack\Mesilicon\ME32\2.3.0\Device\Include"--pd "__UVISION_VERSION SETA 540"--list .\listings\startup_me32g030.lst --xref -o .\objects\startup_me32g030.o --depend .\objects\startup_me32g030.d)
+F (..\common\Device\ARM\ME32G030\Source\me32g030_sys.c)(0x66F373E7)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\User -I ..\common\CMSIS\Include -I ..\common\Device\ARM\ME32G030\Include --diag_suppress=167,1296-I"F:\Keil Pack\Mesilicon\ME32\2.3.0\Device\Include"-D__UVISION_VERSION="540"-o .\objects\me32g030_sys.o --omf_browse .\objects\me32g030_sys.crf --depend .\objects\me32g030_sys.d)
+I (..\common\Device\ARM\ME32G030\Include\me32g030.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cm0.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\common\CMSIS\Include\core_cmInstr.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cmFunc.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\system_me32g030.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_sys.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_ioconfig.h)(0x66F373E7)
+F (..\common\Device\ARM\ME32G030\Source\me32g030_pwm.c)(0x66F373E7)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\User -I ..\common\CMSIS\Include -I ..\common\Device\ARM\ME32G030\Include --diag_suppress=167,1296-I"F:\Keil Pack\Mesilicon\ME32\2.3.0\Device\Include"-D__UVISION_VERSION="540"-o .\objects\me32g030_pwm.o --omf_browse .\objects\me32g030_pwm.crf --depend .\objects\me32g030_pwm.d)
+I (..\common\Device\ARM\ME32G030\Include\me32g030.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cm0.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\common\CMSIS\Include\core_cmInstr.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cmFunc.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\system_me32g030.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_sys.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_pwm.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_ioconfig.h)(0x66F373E7)
+F (..\common\Device\ARM\ME32G030\Source\me32g030_uart.c)(0x66F373E7)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\User -I ..\common\CMSIS\Include -I ..\common\Device\ARM\ME32G030\Include --diag_suppress=167,1296-I"F:\Keil Pack\Mesilicon\ME32\2.3.0\Device\Include"-D__UVISION_VERSION="540"-o .\objects\me32g030_uart.o --omf_browse .\objects\me32g030_uart.crf --depend .\objects\me32g030_uart.d)
+I (..\common\Device\ARM\ME32G030\Include\me32g030.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cm0.h)(0x66F373E7)
+I (F:\Keil core\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\common\CMSIS\Include\core_cmInstr.h)(0x66F373E7)
+I (..\common\CMSIS\Include\core_cmFunc.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\system_me32g030.h)(0x66F373E7)
+I (..\common\Device\ARM\ME32G030\Include\me32g030_uart.h)(0x66F373E7)

@@ -1,0 +1,3 @@
+fromelf.exe --bin --output ./output/@L.bin ./obj/@L.axf
+
+cmd.exe /C copy $L@L.hex $P\output

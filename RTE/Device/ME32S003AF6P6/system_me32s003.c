@@ -1,0 +1,74 @@
+/**************************************************************************//**
+ * $Id: system_me32s003.c,
+ *
+ * @file     system_me32s003.c
+ * @brief    CMSIS Cortex-M0 Device Peripheral Access Layer Source File
+ * @version  ver 1.0 
+ * @date      
+ * @author   
+ *
+ * @note
+ *
+ * @par
+
+ ******************************************************************************/
+
+#include <stdint.h>
+#include "system_me32s003.h"
+#include "me32s003.h"
+
+
+/*----------------------------------------------------------------------------
+  DEFINES
+ *----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------
+  Define clocks
+ *----------------------------------------------------------------------------*/
+#define __WDT_OSC_CLK     (32000UL)     /* Internal WDT oscillator frequency */
+//#define __IRC_OSC_CLK_30MHZ     (30000000UL)     /* Internal RC oscillator frequency 30M*/
+#define __IRC_OSC_CLK_30MHZ     (12500000UL)     /* FPGA Version Clock*/
+/*----------------------------------------------------------------------------
+  Clock Variable definitions
+ *----------------------------------------------------------------------------*/
+
+uint32_t SystemCoreClock = __IRC_OSC_CLK_30MHZ>>1 ; /*!< System Clock Frequency (Core Clock) after reset*/
+uint32_t MainClock = __IRC_OSC_CLK_30MHZ;  /*!< Main Clock Frequency (Main Clock) after reset*/
+/*----------------------------------------------------------------------------
+  Clock functions
+ *----------------------------------------------------------------------------*/
+void SystemCoreClockUpdate (void)            /* Get Core Clock Frequency      */
+{
+  //Get MainClock source
+	switch (SYSCON->MAINCLKSEL_b.SEL )
+	{
+		case 0: //0x0 IRC oscillator
+
+					MainClock = __IRC_OSC_CLK_30MHZ;
+				break;
+		case 2: //0x2 WDT oscillator
+				MainClock = __WDT_OSC_CLK;
+				break;
+		default: 
+				break;
+	}
+  
+  	SystemCoreClock = MainClock/SYSCON->SYSAHBCLKDIV_b.DIV;  /* Update SystemCoreClock */
+	
+	return;
+}
+
+/**
+ * Initialize the system
+ *
+ * @param  none
+ * @return none
+ *
+ * @brief  Setup the microcontroller system.
+ *         Initialize the System.
+ */
+void SystemInit (void)
+{
+	//your code here
+}
+
